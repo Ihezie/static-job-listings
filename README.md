@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/Ihezie/static-job-listings.git](https://github.com/Ihezie/static-job-listings.git)
 - Live Site URL: [https://static-job-listings-site.netlify.app/](https://static-job-listings-site.netlify.app/)
 
 ## My process
