@@ -1,0 +1,156 @@
+.single-job-listing {
+    height: 11rem;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.is-featured {
+    border-left: .5rem solid var(--desaturated-dark-cyan);
+}
+
+.listing-details {
+    display: flex;
+    width: 29rem;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.listing-details .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 72%;
+}
+
+.listing-details header {
+    background-color: transparent;
+    height: auto;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+    font-weight: 700;
+    align-items: center;
+    background-image: none;
+    padding: 0;
+}
+
+.listing-details img {
+    width: 6rem;
+    align-self: center;
+}
+
+.listing-details .info h4:hover {
+    color: var(--desaturated-dark-cyan);
+    cursor: pointer;
+}
+
+.listing-details .company {
+    color: var(--desaturated-dark-cyan);
+}
+
+.listing-details .tags {
+    display: flex;
+    gap: .5rem;
+}
+
+.listing-details .tags span {
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.2rem;
+    padding: .7rem .85rem .5rem;
+    border-radius: 2.5rem;
+    display: flex;
+}
+
+.listing-details .tags .featured {
+    background-color: black;
+}
+
+.listing-details .tags .new {
+    background-color: var(--desaturated-dark-cyan);
+}
+
+.listing-details .extra-info {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: var(--dark-grayish-cyan);
+    font-weight: 500;
+    justify-content: space-between;
+}
+
+.listing-details .extra-info .dot {
+    font-weight: 900;
+    position: relative;
+    top: -.25rem;
+}
+
+.categories {
+    width: auto;
+    max-width: 59%;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: flex-end;
+}
+
+.select-filter-btn:hover {
+    color: white;
+    background-color: var(--desaturated-dark-cyan);
+}
+
+@media (max-width: 735px) {
+    .single-job-listing {
+        flex-direction: column;
+        min-height: 25rem;
+        max-width: 32rem;
+        margin: 0 auto;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-bottom: 5rem;
+    }
+
+    .single-job-listing .listing-details {
+        padding-top: 2rem;
+        width: 100%;
+        display: block;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .single-job-listing .listing-details img {
+        position: absolute;
+        top: -3rem;
+        left: 2rem;
+    }
+
+    .single-job-listing .listing-details .info {
+        width: auto;
+    }
+
+    .single-job-listing .listing-details .info .extra-info {
+        width: 85%;
+        gap: 1rem;
+        justify-content: start;
+    }
+
+    .single-job-listing .listing-details .info header {
+        margin-bottom: 1rem;
+        gap: 2rem;
+    }
+
+    .listing-details .info h4 {
+        margin-bottom: 1.2rem;
+    }
+
+    .categories {
+        justify-content: start;
+        gap: 1.1rem;
+        width: 100%;
+        max-width: 100%;
+        padding-right: 18%;
+        padding-top: 1.5rem;
+        border-top: .15rem solid var(--dark-grayish-cyan);
+    }
+
+}

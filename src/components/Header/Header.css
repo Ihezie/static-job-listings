@@ -1,0 +1,14 @@
+header {
+    height: 10rem;
+    background-image: url('../../assets/images/bg-header-desktop.svg');
+    background-color: var(--desaturated-dark-cyan);
+    background-position: 10%;
+    position: relative;
+}
+@media (max-width: 375px) {
+    header {
+        height: 15rem;
+        background-image: url('../../assets/images/bg-header-mobile.svg');
+        background-position-y: 100%;
+    }
+}
